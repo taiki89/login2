@@ -1,0 +1,64 @@
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.container{
+	padding: 0 15px;	
+}
+
+.header-right{
+	float: right;
+	transition: all 0.5s;
+	width: 200px;	
+}
+
+.header-right a{
+	line-height: 65px;
+	text-align: center;
+	color: white;
+	display: block;
+}
+
+.header-right:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+header {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+}
+
+.contents {
+	width: 500px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(34, 49, 52, 0.9);
+	color: white;
+	font-size: 30px;
+}
+
+.comment {
+	width: 450px;
+	height: 320px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.comment h3 {
+	color: white;
+	margin: 10px;
+}
+
+.comment textarea {
+	float: left;
+	margin: 10px;
+	width: 400px;
+}
+
+.comment input {
+	float: left;
+	margin: 10px;
+	width: 400px;
+}

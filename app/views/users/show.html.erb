@@ -1,0 +1,5 @@
+
+	<% @talk.each do |data| %>
+		<p><%= data.text %></p>
+		<%= link_to '削除', "/main/#{data.id}", method: :delete %>
+	<% end %>
